@@ -1,0 +1,28 @@
+.content{
+    margin-left: 4%;
+    margin-right: 4%;
+    display: grid;
+    padding: 16px;
+}
+.content .detail{
+    border: 2px solid black;
+    display: grid;
+    margin: 16px;
+    padding: 26px;
+    grid-template-columns: auto auto auto auto;
+}
+.content .detail div{
+    padding: 16px;
+    border: 2px solid black;
+}
+.content .detail table, th, td{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.content .detail{
+    text-decoration: none;
+}
+img{
+    width: 200px;
+}
